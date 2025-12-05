@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="48" height="48" version="1.0" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="linearGradient2412" x1="18.379" x2="18.379" y1="44.98" y2="3.0816" gradientTransform="matrix(.95844 0 0 .95844 .99752 .9977)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#004b00" offset="0"/>
+   <stop stop-color="#008300" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient2410" cx="23.896" cy="3.99" r="20.397" gradientTransform="matrix(0 2.2875 -3.0194 0 36.047 -51.63)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#00ad00" offset="0"/>
+   <stop stop-color="#009600" offset=".26238"/>
+   <stop stop-color="#007c00" offset=".66094"/>
+   <stop stop-color="#004c00" offset="1"/>
+  </radialGradient>
+  <linearGradient id="linearGradient2407" x1="63.397" x2="63.397" y1="-12.489" y2="5.4676" gradientTransform="matrix(2.1154,0,0,2.1153,-107.58,31.427)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#0f0" offset="0"/>
+   <stop stop-color="#0f0" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <filter id="filter4" x="-.50523" y="-.50523" width="2.0105" height="2.0105" color-interpolation-filters="sRGB">
+   <feBlend in2="SourceGraphic" result="result3"/>
+   <feComposite in2="result3" k2="1" operator="arithmetic" result="result4"/>
+   <feColorMatrix in="result4" result="result0" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.85 0 "/>
+   <feGaussianBlur in="SourceAlpha" stdDeviation="7"/>
+   <feSpecularLighting result="result1" specularExponent="25" surfaceScale="5">
+    <feDistantLight azimuth="225" elevation="50"/>
+   </feSpecularLighting>
+   <feComposite in2="result0" k1="0.5" k2="1" k3="0.5" operator="arithmetic"/>
+   <feComposite in2="result0" operator="atop" result="result2"/>
+   <feGaussianBlur in="result2" stdDeviation="1"/>
+   <feComposite in2="SourceGraphic" operator="in"/>
+  </filter>
+ </defs>
+ <circle cx="24" cy="24" r="19.629" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75591"/>
+ <path d="m24 4.502c-10.758 0-19.498 8.7398-19.498 19.498s8.7398 19.498 19.498 19.498c10.758 0 19.498-8.7398 19.498-19.498 0-10.758-8.7398-19.498-19.498-19.498z" fill="url(#radialGradient2410)" filter="url(#filter4)" stroke="url(#linearGradient2412)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0037"/>
+ <path d="m42.5 23.999c0 10.218-8.2833 18.501-18.5 18.501-10.217 0-18.5-8.2832-18.5-18.501 0-10.217 8.2829-18.499 18.5-18.499 10.216 0 18.5 8.2822 18.5 18.499z" fill="none" opacity=".4" stroke="url(#linearGradient2407)"/>
+ <path d="m26.522 15.758h-5.044v-3.5523h5.044zm-0.32623 21.435h-4.4166v-17.675h4.4166z" fill="#030" fill-rule="evenodd" opacity=".2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8962" aria-label="i"/>
+ <path d="m26.146 16.059h-4.2928v-3.4326h4.2928zm-0.27764 20.713h-3.7589v-17.079h3.7589z" fill="#0f0" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7196" aria-label="i"/>
+</svg>

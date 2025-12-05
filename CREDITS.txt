@@ -1,0 +1,32 @@
+==============================
+       Dedicated to Hackerer
+==============================
+
+Icon Theme Credits
+------------------
+
+This icon theme incorporates or references assets from the following icon sets:
+
+  • Humanity
+  • ePapirus
+  • Mint-X
+  • hicolor
+
+SVG assets were created and edited using:
+  • SVG STUD.IO (metadata and tool information are embedded within each SVG file)
+
+The internal file structure, organizational layout, and index theme are inspired by:
+  • Anubis icon set
+
+Additional Visual Components
+----------------------------
+
+Recommended GTK Theme:
+  • Hackerer
+    Link: https://www.gnome-look.org/p/2010119
+
+Author's Note
+-------------
+
+This project is created as a visual tribute — Dedicated to Hackerer.
+It was developed exclusively for the Cinnamon desktop environment.

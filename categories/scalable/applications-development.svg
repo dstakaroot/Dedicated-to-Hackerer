@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24" height="24" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="filter8" x="-1.871" y="-1.871" width="4.742" height="4.742" color-interpolation-filters="sRGB">
+   <feGaussianBlur in="SourceAlpha" result="result0" stdDeviation="2.3"/>
+   <feMorphology in="SourceAlpha" radius="6.5" result="result1"/>
+   <feGaussianBlur in="result1" stdDeviation="7"/>
+   <feColorMatrix result="result91" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"/>
+   <feComposite in="result0" in2="result91" operator="out" result="result2"/>
+   <feDiffuseLighting surfaceScale="10">
+    <feDistantLight azimuth="225" elevation="45"/>
+   </feDiffuseLighting>
+   <feBlend in2="SourceGraphic" mode="multiply"/>
+   <feComposite in2="SourceAlpha" operator="in" result="result3"/>
+   <feGaussianBlur in="result3" result="result4" stdDeviation="1"/>
+   <feComposite in2="result3" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feBlend in="fbSourceGraphic" in2="fbSourceGraphic" result="result3"/>
+   <feComposite in2="result3" k2="1" operator="arithmetic" result="result4"/>
+   <feColorMatrix in="result4" result="result0" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.85 0 "/>
+   <feGaussianBlur in="fbSourceGraphicAlpha" stdDeviation="7"/>
+   <feSpecularLighting result="result1" specularExponent="25" surfaceScale="5">
+    <feDistantLight azimuth="225" elevation="50"/>
+   </feSpecularLighting>
+   <feComposite in2="result0" k1="0.5" k2="1" k3="0.5" operator="arithmetic"/>
+   <feComposite in2="result0" operator="atop" result="result2"/>
+   <feGaussianBlur in="result2" stdDeviation="1"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+ </defs>
+ <circle cx="11.927" cy="11.976" r="10.219" fill="#00ff2a" stroke-width=".70882"/>
+ <path transform="matrix(.98735 0 0 .98735 .15183 .15183)" d="m22 12a10 10 0 0 1-10 10 10 10 0 0 1-10-10 10 10 0 0 1 10-10 10 10 0 0 1 10 10z" fill="#00c500" filter="url(#filter8)"/>
+ <path d="M 12,2 A 10,10 0 0 0 2,12 10,10 0 0 0 2.0175781,12.25 10,10 0 0 1 12,2.5 10,10 0 0 1 21.991211,12.125 10,10 0 0 0 22,12 10,10 0 0 0 12,2 Z" fill="#fff" opacity=".1"/>
+ <path d="M 10.5,8.5 17,16" fill="none" opacity=".5" stroke="#0f0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+ <path d="m12.184 6.0234c-1.6423 0.0058244-2.478 0.47576-2.8105 0.80469-0.42569 0.42103-0.86933 0.86078-0.98047 0.9707-0.24061 0.23797 9.35e-5 0.91441-0.35156 1.2988-0.11923 0.11792-0.26694 0.1879-0.40234 0.21875l-0.13281-0.13281c-0.24327-0.24327-0.63564-0.24327-0.87891 0l-0.43945 0.43945c-0.24327 0.24327-0.24327 0.63564 0 0.87891l1.3184 1.3164c0.24327 0.24327 0.63368 0.24327 0.87695 0l0.43945-0.43945c0.24327-0.24327 0.24327-0.63368 0-0.87695l-0.15039-0.15039c0.00622-0.14817 0.10154-0.34147 0.29492-0.52148 0.4442-0.45764 0.91667-0.47625 1.1387-0.23828 0.09254 0.073223 0.38867 0.42383 0.38867 0.42383l1.4199-1.4062-0.33789-0.42188c-0.42569-0.42103 0.017578-0.84766 0.017578-0.84766 1.203-1.1716 2.8887-0.83984 2.8887-0.83984l0.017578-0.23438c-0.90795-0.17634-1.6738-0.24447-2.3164-0.24219z" fill="#0f0"/>
+</svg>

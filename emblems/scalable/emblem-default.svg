@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="filter11" x="-.50526" y="-.50526" width="2.0105" height="2.0105" color-interpolation-filters="sRGB">
+   <feBlend in2="SourceGraphic" result="result3"/>
+   <feComposite in2="result3" k2="1" operator="arithmetic" result="result4"/>
+   <feColorMatrix in="result4" result="result0" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.85 0 "/>
+   <feGaussianBlur in="SourceAlpha" stdDeviation="7"/>
+   <feSpecularLighting result="result1" specularExponent="25" surfaceScale="5">
+    <feDistantLight azimuth="225" elevation="50"/>
+   </feSpecularLighting>
+   <feComposite in2="result0" k1="0.5" k2="1" k3="0.5" operator="arithmetic"/>
+   <feComposite in2="result0" operator="atop" result="result2"/>
+   <feGaussianBlur in="result2" stdDeviation="1"/>
+   <feComposite in2="SourceGraphic" operator="in"/>
+  </filter>
+ </defs>
+ <circle cx="24" cy="24" r="20" fill="#0f0"/>
+ <circle cx="24" cy="24" r="19" fill="#003000" filter="url(#filter11)" opacity=".89" stroke-width=".95"/>
+ <path d="m11 27.222 7.7782 7.7782 18.385-18.385-3.5355-3.5355-14.849 14.849-4.2426-4.2426-3.5355 3.5355z" fill="#0f0"/>
+</svg>

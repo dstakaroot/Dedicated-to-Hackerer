@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient4288" x1="130" x2="35" y1="63" y2="23" gradientTransform="matrix(.5339 0 0 .5339 -2.0487 924.7)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#0f0" offset="0"/>
+   <stop stop-color="#0f0" stop-opacity="0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(0 -924.36)">
+  <g fill="#00f800">
+   <rect x="37.46" y="924.7" width="4.8051" height="1.0678" ry=".5339"/>
+   <rect x="16.638" y="933.78" width="1.0678" height="2.6695" ry=".5339"/>
+   <rect x="16.638" y="939.65" width="1.0678" height="2.1356" ry=".5339"/>
+   <rect x="16.638" y="944.46" width="1.0678" height="2.1356" ry=".5339"/>
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="round" stroke-width=".5339">
+   <rect x="17.439" y="925.5" width="29.364" height="61.932" ry="4.4993" fill="#001c0e" stroke="#00c100"/>
+   <circle cx="32.121" cy="982.9" r="2.4025" fill="none" stroke="#005800"/>
+   <rect x="31.32" y="982.09" width="1.6017" height="1.6017" ry=".32034" fill="none" stroke="#00f800"/>
+  </g>
+  <g>
+   <rect x="19.307" y="933.78" width="25.627" height="45.381" ry=".53308" fill="#005200"/>
+   <circle cx="32.121" cy="927.9" r=".5339" fill="#005200"/>
+   <path d="m21.938 925.23c-2.6359 0-4.7665 2.1306-4.7665 4.7665v40.275a38.708 60.064 0 0 0 15.388-45.041z" color="#000000" color-rendering="auto" fill="url(#linearGradient4288)" image-rendering="auto" opacity=".566" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+   <rect x="29.718" y="929.77" width="4.8051" height="1.0678" ry=".5339" fill="#00a400" stroke="#005200" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5339"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <filter id="filter2" x="-1.3308" y="-1.3308" width="3.6617" height="3.6617" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="fbSourceGraphic" stdDeviation="0.019388119"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feBlend in="fbSourceGraphic" in2="fbSourceGraphic" result="result3"/>
+   <feComposite in2="result3" k2="1" operator="arithmetic" result="result4"/>
+   <feColorMatrix in="result4" result="result0" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.85 0 "/>
+   <feGaussianBlur in="fbSourceGraphicAlpha" stdDeviation="7"/>
+   <feSpecularLighting result="result1" specularExponent="25" surfaceScale="5">
+    <feDistantLight azimuth="225" elevation="50"/>
+   </feSpecularLighting>
+   <feComposite in2="result0" k1="0.5" k2="1" k3="0.5" operator="arithmetic"/>
+   <feComposite in2="result0" operator="atop" result="result2"/>
+   <feGaussianBlur in="result2" stdDeviation="1"/>
+   <feComposite in2="fbSourceGraphic" operator="in"/>
+  </filter>
+  <filter id="filter16" x="-6.4373" y="-5.2799" width="13.875" height="11.56" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result8" stdDeviation="5 3.918"/>
+   <feComposite in="SourceGraphic" in2="result8" operator="in" result="result6"/>
+   <feComposite in2="result6" operator="in" result="result11"/>
+   <feFlood flood-color="rgb(255,255,255)" result="result10"/>
+   <feBlend in="result10" in2="result11" mode="multiply" result="result12"/>
+   <feComposite in="result12" in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+   <feFlood flood-color="rgb(75,101,154)" result="result6"/>
+   <feComposite in="fbSourceGraphic" in2="result6" k1="0.5" k2="0.3" k3="0.3" operator="arithmetic" result="result2"/>
+   <feColorMatrix in="result2" result="fbSourceGraphicAlpha" values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -0.8 -1 0 3.9 -2.7 "/>
+   <feGaussianBlur in="fbSourceGraphicAlpha" result="result0" stdDeviation="0.5"/>
+   <feDiffuseLighting lighting-color="#ffffff" diffuseConstant="0.69999999" in="result0" result="result13" surfaceScale="50">
+    <feDistantLight azimuth="225" elevation="20"/>
+   </feDiffuseLighting>
+   <feSpecularLighting lighting-color="#ffffff" in="result0" result="result1" specularConstant="0.69999999" specularExponent="20" surfaceScale="10">
+    <feDistantLight azimuth="225" elevation="45"/>
+   </feSpecularLighting>
+   <feBlend in="result13" in2="SourceGraphic" mode="screen" result="result5"/>
+   <feComposite in="result1" in2="result5" k2="1" k3="1" operator="arithmetic" result="result9"/>
+   <feGaussianBlur in="result9" result="result15" stdDeviation="0.5"/>
+   <feComposite in2="SourceGraphic" operator="in"/>
+  </filter>
+  <radialGradient id="radialGradient2" cx="5.325" cy="4.8762" r="8.2501" gradientTransform="matrix(2.2726 2.034 -1.0226 1.1426 -1.7899 -11.526)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#135200" offset="0"/>
+   <stop stop-color="#082600" stop-opacity="0" offset=".52848"/>
+  </radialGradient>
+  <filter id="filter6" x="-.23092" y="-.26992" width="1.4618" height="1.5398" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(0,255,0)" in="SourceGraphic" result="flood"/>
+   <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="0.800000"/>
+   <feOffset dx="0.000000" dy="0.000000" in="blur" result="offset"/>
+   <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+   <feComposite in="SourceGraphic" in2="comp1" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feFlood flood-color="rgb(0,51,0)" in="fbSourceGraphic" result="flood"/>
+   <feGaussianBlur in="fbSourceGraphic" result="blur" stdDeviation="0.200000"/>
+   <feOffset dx="0.000000" dy="0.000000" in="blur" result="offset"/>
+   <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+   <feComposite in="fbSourceGraphic" in2="comp1" result="comp2"/>
+  </filter>
+ </defs>
+ <g transform="matrix(.9 0 0 .9 .84667 .84667)">
+  <g stroke-linecap="round">
+   <circle cx="8.4667" cy="8.4667" r="7.7626" fill="none" stroke="#00a900" stroke-width="1.3078"/>
+   <circle cx="8.4667" cy="8.4667" r="7.9776" fill="url(#radialGradient2)" stroke="#005000" stroke-width=".545"/>
+   <circle cx="8.4667" cy="8.4667" r="7.3334" fill="#6bff44" filter="url(#filter2)" opacity=".848" stroke="#008000" stroke-width=".545"/>
+  </g>
+  <path transform="matrix(1 0 0 .54172 .11148 3.6432)" d="m4.5993 3.4326v0.58171h1.0899v-0.58171zm0 0.75544v0.58171h1.0899v-0.58171zm1.3287 0v0.58171h1.0899v-0.58171zm-2.658 0.75544v0.58171h1.0899v-0.58171zm1.3293 0v0.58171h1.0899v-0.58171zm1.3287 0v0.58171h1.0899v-0.58171zm2.658 0v0.58171h1.0899v-0.58171zm-5.3161 0.75544v0.58171h1.0899v-0.58171zm1.3293 0v0.58171h1.0899v-0.58171zm1.3287 0v0.58171h1.0899v-0.58171zm2.658 0v0.58171h1.0899v-0.58171zm-5.3161 0.75609v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm-5.3161 0.75544v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm2.6587 0v0.58106h1.0899v-0.58106zm-7.9748 0.75544v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm-7.9748 0.75544v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm-9.3034 0.75544v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm-9.3034 0.75544v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm-9.3034 0.75544v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm-9.3034 0.75544v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3293 0v0.58106h1.0899v-0.58106zm1.3287 0v0.58106h1.0899v-0.58106z" fill="#4cff4c" fill-rule="evenodd" filter="url(#filter6)" stroke-width=".39942"/>
+ </g>
+ <g transform="matrix(.9 0 0 .9 .84663 .73263)" stroke="#002800" stroke-linecap="round" stroke-linejoin="round">
+  <g fill="none" stroke-width="1.259">
+   <path d="m11.466 4.5564v7.8206" opacity=".8"/>
+   <path d="m8.4667 4.5564v7.8206" opacity=".8"/>
+   <path d="m5.4663 4.5564v7.8206" opacity=".8"/>
+  </g>
+  <g fill="#26a200" stroke-width=".08496">
+   <circle cx="11.466" cy="10.271" r="1.1218" filter="url(#filter16)"/>
+   <circle cx="8.4667" cy="8.2923" r="1.1218" filter="url(#filter16)"/>
+   <circle cx="5.4663" cy="6.4712" r="1.1218" filter="url(#filter16)"/>
+  </g>
+ </g>
+</svg>

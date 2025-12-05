@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <filter id="filter113" x="-.4555" y="-6.0733" width="1.911" height="13.147" color-interpolation-filters="sRGB">
+   <feGaussianBlur in="SourceAlpha" result="result0" stdDeviation="2.3"/>
+   <feMorphology in="SourceAlpha" radius="6.5" result="result1"/>
+   <feGaussianBlur in="result1" stdDeviation="7"/>
+   <feColorMatrix result="result91" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"/>
+   <feComposite in="result0" in2="result91" operator="out" result="result2"/>
+   <feDiffuseLighting surfaceScale="10">
+    <feDistantLight azimuth="225" elevation="45"/>
+   </feDiffuseLighting>
+   <feBlend in2="SourceGraphic" mode="multiply"/>
+   <feComposite in2="SourceAlpha" operator="in" result="result3"/>
+   <feGaussianBlur in="result3" result="result4" stdDeviation="1"/>
+   <feComposite in2="result3" operator="atop"/>
+  </filter>
+  <filter id="filter116" x="-.911" y="-4.555" width="2.822" height="10.11" color-interpolation-filters="sRGB">
+   <feGaussianBlur in="SourceAlpha" result="result0" stdDeviation="2.3"/>
+   <feMorphology in="SourceAlpha" radius="6.5" result="result1"/>
+   <feGaussianBlur in="result1" stdDeviation="7"/>
+   <feColorMatrix result="result91" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"/>
+   <feComposite in="result0" in2="result91" operator="out" result="result2"/>
+   <feDiffuseLighting surfaceScale="10">
+    <feDistantLight azimuth="225" elevation="45"/>
+   </feDiffuseLighting>
+   <feBlend in2="SourceGraphic" mode="multiply"/>
+   <feComposite in2="SourceAlpha" operator="in" result="result3"/>
+   <feGaussianBlur in="result3" result="result4" stdDeviation="1"/>
+   <feComposite in2="result3" operator="atop"/>
+  </filter>
+  <linearGradient id="linearGradient2" x1="24" x2="24" y1="5.95" y2="45.95" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#00b100" offset=".45202"/>
+   <stop stop-color="#0cff0c" stop-opacity="0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="matrix(.39864 0 0 .32869 -1.1413 .25178)">
+  <rect x="4" y="7" width="40" height="36" rx="2" ry="2" fill="#001a00" stroke="#0f0" stroke-width=".27626"/>
+  <path d="m4 9.9v30.1c0 1.108 0.892 2 2 2h36c1.108 0 2-0.892 2-2v-30.1z" fill="url(#linearGradient2)"/>
+  <path d="m6 6c-1.108 0-2 0.892-2 2v2h40v-2c0-1.108-0.892-2-2-2z" fill="#003e00"/>
+  <path d="m16 38c-1.108 0-2 0.892-2 2v2h20v-2c0-1.108-0.892-2-2-2z" fill="#003e00" filter="url(#filter116)"/>
+  <path d="m6 6c-1.108 0-2 0.892-2 2v1c0-1.108 0.892-2 2-2h36c1.108 0 2 0.892 2 2v-1c0-1.108-0.892-2-2-2z" fill="#0f0" filter="url(#filter113)" opacity=".1"/>
+ </g>
+</svg>

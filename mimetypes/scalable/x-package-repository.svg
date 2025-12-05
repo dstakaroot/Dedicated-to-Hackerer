@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="filter12" x="-.41426" y="-.41426" width="1.8285" height="1.8285" color-interpolation-filters="sRGB">
+   <feBlend in2="SourceGraphic" result="result3"/>
+   <feComposite in2="result3" k2="1" operator="arithmetic" result="result4"/>
+   <feColorMatrix in="result4" result="result0" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.85 0 "/>
+   <feGaussianBlur in="SourceAlpha" stdDeviation="4.8686676"/>
+   <feSpecularLighting result="result1" specularExponent="25" surfaceScale="5">
+    <feDistantLight azimuth="225" elevation="50"/>
+   </feSpecularLighting>
+   <feComposite in2="result0" k1="0.5" k2="1" k3="0.5" operator="arithmetic"/>
+   <feComposite in2="result0" operator="atop" result="result2"/>
+   <feGaussianBlur in="result2" stdDeviation="1"/>
+   <feComposite in2="SourceGraphic" operator="in"/>
+  </filter>
+  <filter id="filter16" x="-.26053" y="-.26053" width="1.5211" height="1.5211" color-interpolation-filters="sRGB">
+   <feBlend in2="SourceGraphic" result="result3"/>
+   <feComposite in2="result3" k2="1" operator="arithmetic" result="result4"/>
+   <feColorMatrix in="result4" result="result0" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.85 0 "/>
+   <feGaussianBlur in="SourceAlpha" stdDeviation="5.2962232"/>
+   <feSpecularLighting result="result1" specularExponent="25" surfaceScale="5">
+    <feDistantLight azimuth="225" elevation="50"/>
+   </feSpecularLighting>
+   <feComposite in2="result0" k1="0.5" k2="1" k3="0.5" operator="arithmetic"/>
+   <feComposite in2="result0" operator="atop" result="result2"/>
+   <feGaussianBlur in="result2" stdDeviation="1"/>
+   <feComposite in2="SourceGraphic" operator="in"/>
+  </filter>
+  <filter id="filter4" x="-.24775" y="-.24775" width="1.4955" height="1.4955" color-interpolation-filters="sRGB">
+   <feBlend in2="SourceGraphic" result="result3"/>
+   <feComposite in2="result3" k2="1" operator="arithmetic" result="result4"/>
+   <feColorMatrix in="result4" result="result0" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.85 0 "/>
+   <feGaussianBlur in="SourceAlpha" stdDeviation="2.509732"/>
+   <feSpecularLighting result="result1" specularExponent="25" surfaceScale="5">
+    <feDistantLight azimuth="225" elevation="50"/>
+   </feSpecularLighting>
+   <feComposite in2="result0" k1="0.5" k2="1" k3="0.5" operator="arithmetic"/>
+   <feComposite in2="result0" operator="atop" result="result2"/>
+   <feGaussianBlur in="result2" stdDeviation="1"/>
+   <feComposite in2="SourceGraphic" operator="in"/>
+  </filter>
+ </defs>
+ <rect transform="matrix(0,-1,-1,0,0,0)" x="-62" y="-61" width="58" height="58" rx="2.9" ry="2.9" opacity=".2"/>
+ <rect transform="matrix(0,-1,-1,0,0,0)" x="-61" y="-61" width="58" height="58" rx="2.9" ry="2.9" fill="#004100" filter="url(#filter16)"/>
+ <rect transform="matrix(0,-1,-1,0,0,0)" x="-55" y="-55" width="46" height="46" rx="2.3" ry="2.3" fill="#002500"/>
+ <rect transform="matrix(0,-1,-1,0,0,0)" x="-50" y="-49" width="34" height="34" rx="1.7" ry="1.7" opacity=".2"/>
+ <rect transform="matrix(0,-1,-1,0,0,0)" x="-49" y="-49" width="34" height="34" rx="1.7" ry="1.7" fill="#00a400" filter="url(#filter12)" opacity=".8"/>
+ <path d="m29 15v14h-14v6h14v14h6v-14h14v-6h-14v-14z" filter="url(#filter4)" opacity=".8"/>
+ <path d="m9 52.699v1c0 1.2742 1.0266 2.3008 2.3008 2.3008h41.398c1.2742 0 2.3008-1.0266 2.3008-2.3008v-1c0 1.2742-1.0266 2.3008-2.3008 2.3008h-41.398c-1.2742 0-2.3008-1.0266-2.3008-2.3008z" fill="#0f0" opacity=".1"/>
+ <path d="m11.301 9c-1.2742 0-2.3008 1.0266-2.3008 2.3008v1c0-1.2742 1.0266-2.3008 2.3008-2.3008h41.398c1.2742 0 2.3008 1.0266 2.3008 2.3008v-1c0-1.2742-1.0266-2.3008-2.3008-2.3008z" opacity=".5"/>
+ <path d="m16.699 15c-0.9418 0-1.6992 0.75742-1.6992 1.6992v1c0-0.9418 0.75742-1.6992 1.6992-1.6992h30.602c0.9418 0 1.6992 0.75742 1.6992 1.6992v-1c0-0.9418-0.75742-1.6992-1.6992-1.6992h-30.602z" fill="#0f0" opacity=".2"/>
+ <path d="m5.8984 3c-1.6066 0-2.8984 1.2918-2.8984 2.8984v1c0-1.6066 1.2918-2.8984 2.8984-2.8984h52.203c1.6066 0 2.8984 1.2918 2.8984 2.8984v-1c0-1.6066-1.2918-2.8984-2.8984-2.8984h-52.203z" fill="#0f0" opacity=".2"/>
+</svg>

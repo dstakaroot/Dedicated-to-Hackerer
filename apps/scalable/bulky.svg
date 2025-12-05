@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="filter13" x="-.34248" y="-.41359" width="1.685" height="1.8272" color-interpolation-filters="sRGB">
+   <feGaussianBlur in="SourceAlpha" result="result0" stdDeviation="2.3"/>
+   <feMorphology in="SourceAlpha" radius="6.5" result="result1"/>
+   <feGaussianBlur in="result1" stdDeviation="7"/>
+   <feColorMatrix result="result91" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"/>
+   <feComposite in="result0" in2="result91" operator="out" result="result2"/>
+   <feDiffuseLighting surfaceScale="10">
+    <feDistantLight azimuth="225" elevation="45"/>
+   </feDiffuseLighting>
+   <feBlend in2="SourceGraphic" mode="multiply"/>
+   <feComposite in2="SourceAlpha" operator="in" result="result3"/>
+   <feGaussianBlur in="result3" result="result4" stdDeviation="1"/>
+   <feComposite in2="result3" operator="atop"/>
+  </filter>
+ </defs>
+ <rect x="4" y="8.814" width="56" height="46.372" rx="12.6" ry="10.434" opacity=".2" stroke-width=".90998"/>
+ <rect x="4" y="8.814" width="56" height="46.372" rx="12.6" ry="10.434" fill="#005d00" stroke-width=".90998"/>
+ <rect x="5.4" y="9.9733" width="53.2" height="44.053" rx="11.97" ry="9.912" fill="#060" filter="url(#filter13)" stroke-width=".86448"/>
+ <path d="m32 18v3h5v24h-5v3h13v-3h-5v-24h5v-3zm-16.285 7c-1.5037 0-2.7148 1.1887-2.7148 2.666v10.668c0 1.4773 1.2111 2.666 2.7148 2.666h20.285v-3h-20v-10h20v-3zm25.285 0v3h7v10h-7v3h7.2852c1.5037 0 2.7148-1.1887 2.7148-2.666v-10.668c0-1.4773-1.2111-2.666-2.7148-2.666zm-23 5v6h15v-6z" opacity=".2"/>
+ <path d="m32 17v3h5v24h-5v3h13v-3h-5v-24h5v-3h-13zm-16.285 7c-1.5037 0-2.7148 1.1887-2.7148 2.666v10.668c0 1.4773 1.2111 2.666 2.7148 2.666h20.285v-3h-20v-10h20v-3h-20.285zm25.285 0v3h7v10h-7v3h7.2852c1.5037 0 2.7148-1.1887 2.7148-2.666v-10.668c0-1.4773-1.2111-2.666-2.7148-2.666h-7.2852zm-23 5v6h15v-6h-15z" fill="#0f0"/>
+ <path d="m16.6 8c-6.9804 0-12.6 4.8756-12.6 10.932v0.86768c0-6.0567 5.6192-10.932 12.6-10.932h30.801c6.9804 0 12.6 4.8756 12.6 10.932v-0.86768c0-6.0567-5.6192-10.932-12.6-10.932z" fill="#0f0" opacity=".1" stroke-width=".93149"/>
+</svg>

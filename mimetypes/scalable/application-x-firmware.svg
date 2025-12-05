@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="filter25" x="-.81389" y="-.40694" width="2.6278" height="1.8139" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="result8" stdDeviation="5"/>
+   <feComposite in="SourceGraphic" in2="result8" operator="in" result="result6"/>
+   <feComposite in2="result6" operator="in" result="result11"/>
+   <feFlood flood-color="rgb(255,255,255)" result="result10"/>
+   <feBlend in="result10" in2="result11" mode="multiply" result="result12"/>
+   <feComposite in="result12" in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+   <feFlood flood-color="rgb(75,101,154)" result="result6"/>
+   <feComposite in="fbSourceGraphic" in2="result6" k1="0.5" k2="0.3" k3="0.3" operator="arithmetic" result="result2"/>
+   <feColorMatrix in="result2" result="fbSourceGraphicAlpha" values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -0.8 -1 0 3.9 -2.7 "/>
+   <feGaussianBlur in="fbSourceGraphicAlpha" result="result0" stdDeviation="0.5"/>
+   <feDiffuseLighting lighting-color="rgb(255,255,255)" diffuseConstant="0.7" in="result0" result="result13" surfaceScale="50">
+    <feDistantLight azimuth="225" elevation="20"/>
+   </feDiffuseLighting>
+   <feSpecularLighting lighting-color="rgb(255,255,255)" in="result0" result="result1" specularConstant="0.7" specularExponent="20" surfaceScale="10">
+    <feDistantLight azimuth="225" elevation="45"/>
+   </feSpecularLighting>
+   <feBlend in="result13" in2="SourceGraphic" mode="screen" result="result5"/>
+   <feComposite in="result1" in2="result5" k2="1" k3="1" operator="arithmetic" result="result9"/>
+   <feGaussianBlur in="result9" result="result15" stdDeviation="0.5"/>
+   <feComposite in2="SourceGraphic" operator="in"/>
+  </filter>
+  <filter id="filter29" x="-.53611" y="-.40208" width="2.0722" height="1.8042" color-interpolation-filters="sRGB">
+   <feBlend in2="SourceGraphic" result="result3"/>
+   <feComposite in2="result3" k2="1" operator="arithmetic" result="result4"/>
+   <feColorMatrix in="result4" result="result0" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.85 0 "/>
+   <feGaussianBlur in="SourceAlpha" stdDeviation="7"/>
+   <feSpecularLighting result="result1" specularExponent="25" surfaceScale="5">
+    <feDistantLight azimuth="225" elevation="50"/>
+   </feSpecularLighting>
+   <feComposite in2="result0" k1="0.5" k2="1" k3="0.5" operator="arithmetic"/>
+   <feComposite in2="result0" operator="atop" result="result2"/>
+   <feGaussianBlur in="result2" stdDeviation="1"/>
+   <feComposite in2="SourceGraphic" operator="in"/>
+  </filter>
+ </defs>
+ <g transform="translate(0,1)" opacity=".2">
+  <rect x="12" y="12" width="40" height="5"/>
+  <rect x="12" y="21" width="40" height="5"/>
+  <rect x="12" y="30" width="40" height="5"/>
+  <rect x="12" y="39" width="40" height="5"/>
+  <rect x="12" y="48" width="40" height="5"/>
+ </g>
+ <g fill="#b7b7b7">
+  <path d="m12 12v5h2v-5h-2zm38 0v5h2v-5h-2zm-38 9v5h2v-5h-2zm38 0v5h2v-5h-2zm-38 9v5h2v-5h-2zm38 0v5h2v-5h-2zm-38 9v5h2v-5h-2zm38 0v5h2v-5h-2zm-38 9v5h2v-5h-2zm38 0v5h2v-5h-2z" fill="#32ff32" stroke="#0c0" stroke-width=".4"/>
+ </g>
+ <rect x="14" y="9" width="36" height="48" rx="2.5" ry="2.5" opacity=".2"/>
+ <rect x="14" y="8" width="36" height="48" rx="2.5" ry="2.5" fill="#090" filter="url(#filter29)" stroke="#001a00" stroke-width=".2"/>
+ <path d="m16.5 8c-1.385 0-2.5 1.115-2.5 2.5v1c0-1.385 1.115-2.5 2.5-2.5h31c1.385 0 2.5 1.115 2.5 2.5v-1c0-1.385-1.115-2.5-2.5-2.5h-31z" fill="#fff" opacity=".1"/>
+ <g fill="#0f0" filter="url(#filter25)" stroke="#001a00" stroke-width=".5">
+  <rect x="23" y="14" width="2" height="6"/>
+  <rect x="23" y="22" width="2" height="6"/>
+  <rect x="23" y="30" width="2" height="12"/>
+  <rect x="31" y="14" width="2" height="16"/>
+  <rect x="31" y="32" width="2" height="16"/>
+  <rect x="39" y="14" width="2" height="12"/>
+  <rect x="39" y="28" width="2" height="6"/>
+  <rect x="39" y="36" width="2" height="14"/>
+ </g>
+</svg>

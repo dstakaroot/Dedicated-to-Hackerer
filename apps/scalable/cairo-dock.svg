@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="64" height="64" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient2130">
+   <stop stop-color="#0f0" offset="0"/>
+   <stop stop-color="#002d00" stop-opacity=".36863" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient3682" cx="376.73" cy="609.92" r="394.68" gradientTransform="matrix(.85702 0 0 .78203 497.76 -16.42)" gradientUnits="userSpaceOnUse">
+   <stop offset="0"/>
+   <stop stop-color="#008f00" stop-opacity=".015686" offset="1"/>
+  </radialGradient>
+  <radialGradient id="radialGradient3684" cx="376.73" cy="609.92" r="315.4" gradientTransform="matrix(1.2604 -1.5313e-7 1.2525e-7 .94094 345.79 -113.34)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#003500" offset="0"/>
+   <stop stop-color="#0f0" stop-opacity=".36905" offset="1"/>
+  </radialGradient>
+  <radialGradient id="radialGradient3686" cx="376.73" cy="609.92" r="315.4" gradientTransform="matrix(1.2604 -1.5313e-7 1.2525e-7 .94094 345.79 -113.34)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2130"/>
+  <radialGradient id="radialGradient3712" cx="376.73" cy="609.92" r="315.4" gradientTransform="matrix(1.3324 -1.6187e-7 1.324e-7 .99466 347.63 -48.38)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2130"/>
+  <linearGradient id="linearGradient4239" x1="235.27" x2="235.27" y1="-63.358" y2="195.36" gradientTransform="matrix(2.8837 0 0 3.521 194.66 331.23)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#005e00" offset=".50523"/>
+   <stop stop-color="#00c200" stop-opacity="0" offset=".71245"/>
+   <stop stop-color="#00c200" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4241" x1="325.56" x2="320.23" y1="249.86" y2="474.17" gradientTransform="matrix(.083982 0 0 .066913 60.971 -1.2489)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#0f0" offset="0"/>
+   <stop stop-color="#0f0" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient2" cx="376.73" cy="609.92" r="411.84" gradientTransform="matrix(.94599 0 0 .95605 -4.433 -122.56)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#006400" offset="0"/>
+   <stop stop-color="#006400" stop-opacity="0" offset=".81034"/>
+  </radialGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="matrix(.068613 0 0 .071819 6.7073 -2.0637)" stroke-width=".80231">
+  <g>
+   <ellipse cx="328.2" cy="509.41" rx="267.49" ry="302.51" fill="url(#radialGradient2)" stroke="url(#radialGradient3682)" stroke-linecap="round" stroke-linejoin="round" stroke-width="182.47"/>
+   <ellipse cx="374.77" cy="509.41" rx="314.39" ry="302.51" fill="url(#radialGradient3684)"/>
+   <ellipse cx="374.77" cy="509.41" rx="314.39" ry="302.51" fill="url(#radialGradient3686)" opacity=".78893"/>
+  </g>
+  <g fill="url(#radialGradient3712)" stroke-width=".80231">
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".039446"/>
+   <g stroke-width=".80231">
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+    <ellipse transform="matrix(.94599 0 0 .94599 16.941 -67.574)" cx="376.73" cy="609.92" rx="315.4" ry="319.78" opacity=".001972"/>
+   </g>
+  </g>
+  <text transform="matrix(17.385 0 0 18.133 -745.5 -41.249)" x="46.020573" y="41.055904" fill="#00ff00" font-family="'DejaVu Sans'" stroke="#00ff00" stroke-width=".53418" style="line-height:0%" xml:space="preserve"><tspan x="46.020573" y="41.055904" fill="#00ff00" font-family="'DejaVu Sans'" font-size="23.529px" font-weight="bold" stroke="#00ff00" stroke-width=".53418" style="line-height:1.25">CD</tspan></text>
+  <path d="m-10.421 696.31c313.02 8.2474 329.35-116.74 397-115.46 84.718 1.6211 52.821 125.45 358.2 117.2" fill="url(#linearGradient4239)" fill-rule="evenodd" stroke="#00bd00" stroke-width="21.368"/>
+  <ellipse transform="matrix(17.755 0 0 17.755 -745.5 -41.249)" cx="63.143" cy="26.096" rx="14.167" ry="11.395" fill="url(#linearGradient4241)" opacity=".78893"/>
+ </g>
+</svg>
