@@ -14,6 +14,7 @@ This icon theme incorporates or references assets from the following icon sets:
 
 SVG assets were created and edited using:
   • SVG STUD.IO (metadata and tool information are embedded within each SVG file)
+   https://svgstud.io/main.html
 
 The internal file structure, organizational layout, and index theme are inspired by:
   • Anubis icon set
